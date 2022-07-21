@@ -1,10 +1,11 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import DiscoverMovies from '../../components/DiscoverMovies'
 
 const HomeScreen = () => {
   return (
     <View>
-        <Text>Some random text</Text>
+        <DiscoverMovies />
     </View>
   )
 }
